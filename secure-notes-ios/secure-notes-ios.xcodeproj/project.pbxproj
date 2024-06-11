@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F3974A9F2C18DBE60062D8E3 /* secure_notes_iosApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3974A9E2C18DBE60062D8E3 /* secure_notes_iosApp.swift */; };
+		F3974A9F2C18DBE60062D8E3 /* SecureNotes.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3974A9E2C18DBE60062D8E3 /* SecureNotes.swift */; };
 		F3974AA12C18DBE60062D8E3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3974AA02C18DBE60062D8E3 /* ContentView.swift */; };
 		F3974AA32C18DBE80062D8E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3974AA22C18DBE80062D8E3 /* Assets.xcassets */; };
 		F3974AA62C18DBE80062D8E3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3974AA52C18DBE80062D8E3 /* Preview Assets.xcassets */; };
@@ -37,7 +37,7 @@
 
 /* Begin PBXFileReference section */
 		F3974A9B2C18DBE60062D8E3 /* secure-notes-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "secure-notes-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		F3974A9E2C18DBE60062D8E3 /* secure_notes_iosApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = secure_notes_iosApp.swift; sourceTree = "<group>"; };
+		F3974A9E2C18DBE60062D8E3 /* SecureNotes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecureNotes.swift; sourceTree = "<group>"; };
 		F3974AA02C18DBE60062D8E3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F3974AA22C18DBE80062D8E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F3974AA52C18DBE80062D8E3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -98,7 +98,7 @@
 		F3974A9D2C18DBE60062D8E3 /* secure-notes-ios */ = {
 			isa = PBXGroup;
 			children = (
-				F3974A9E2C18DBE60062D8E3 /* secure_notes_iosApp.swift */,
+				F3974A9E2C18DBE60062D8E3 /* SecureNotes.swift */,
 				F3974AA02C18DBE60062D8E3 /* ContentView.swift */,
 				F3974AA22C18DBE80062D8E3 /* Assets.xcassets */,
 				F3974AA72C18DBE80062D8E3 /* Persistence.swift */,
@@ -266,7 +266,7 @@
 				F3974AA82C18DBE80062D8E3 /* Persistence.swift in Sources */,
 				F3974AA12C18DBE60062D8E3 /* ContentView.swift in Sources */,
 				F3974AAB2C18DBE80062D8E3 /* secure_notes_ios.xcdatamodeld in Sources */,
-				F3974A9F2C18DBE60062D8E3 /* secure_notes_iosApp.swift in Sources */,
+				F3974A9F2C18DBE60062D8E3 /* SecureNotes.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
